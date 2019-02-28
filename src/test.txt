@@ -1,0 +1,4 @@
+tests
+
+1. check the validation function for color.
+2. check the function _parseStringToRgba().

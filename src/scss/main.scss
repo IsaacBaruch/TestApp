@@ -1,0 +1,44 @@
+@import "./constance";
+
+body {
+    margin: 0;
+
+    $height: 30px;
+
+    main {
+        height: 100vh;
+        position: relative;
+
+        header,
+        footer {
+            width: 100%;
+            height: $height;
+            background-color: $headerColor;
+            border-top: 1px solid $borderColor;
+            border-bottom: 1px solid $borderColor;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+        }
+
+        .textbox {
+            position: absolute;
+            transform: translateX(-50%);
+            padding: 2px 4px;
+            left: 25%;
+            top: 50px;
+            max-width: 130px;
+            width: calc(50% - 30px);
+        }
+
+        bgcolor {
+            display: inline-block;
+            float: right;
+            width: 50%;
+            height: calc(100% - 60px);
+            border-left: 1px solid $borderColor;
+        }
+    }
+}

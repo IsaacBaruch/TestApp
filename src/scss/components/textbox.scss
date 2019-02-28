@@ -1,0 +1,12 @@
+
+.textbox {
+
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+
+    &:invalid {
+        outline-color: red;
+        outline-style: solid;
+        outline-width: 2px;
+    }
+}
